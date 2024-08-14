@@ -276,7 +276,7 @@ border-radius: 50%;
     /* object-fit:fill ; */
     /* object-position: right; */
     width: 100%;
-    border-radius: 15px;
+    border-radius: 11px;
  }
  .container2{
     width: 80%;
@@ -398,3 +398,122 @@ border-radius: 50%;
     margin-top: 34px;
 }
  /* bmi section end  */
+ /* team section start  */
+ .team-container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   grid-template-rows: repeat(2, 1fr);
+   background: rgba(255, 255, 255, 0.1);
+   border-radius: 12px;
+   padding: 20px;
+ }
+ .trainer{
+width: 100%;
+height: 292px;
+position: relative;
+ }
+ .trainer img{
+   width: 100%;
+   height: 100%;
+   border-radius: 15px;
+   filter: brightness(80%);
+
+ }
+ .identity{
+   position: absolute;
+   bottom: 22px;
+   left: 22px;
+ }
+ .trainer h5{
+  color: #fff;
+  font-size:1.4rem ;
+  font-weight: 700px;
+
+ }
+ .trainer p{
+   font-size: 1rem;
+   color: rgba(255, 255, 255, 0.5);
+   margin-top: 7px;
+
+ }
+
+ /* team section end */
+ /* footer section start  */
+   
+  
+
+ .footer-left h1{
+   color: #E6533C ;
+   font-size: 70px;
+   font-weight: 800;
+   font-style: italic;
+ }
+ .footer-left p{
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 14px;
+   letter-spacing: 0.3px;
+   margin-top: 20px  ;
+ }
+ .footer-r-l h6,.footer-r-r h6{
+   color: rgb(255, 255, 255);
+   font-size: 32px;
+   font-weight: 700;
+   margin-bottom: 35px;
+ }
+ .footer-r-l li ,.footer-r-r li{
+   list-style: none;
+   margin-bottom: 20px;
+ }
+ .footer-r-l a , .footer-r-r a{
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 23px;
+   
+ }
+
+ footer{
+   background: rgba(255, 255, 255, 0.1);
+   margin-top: 90px;
+ }
+ .footer-content{
+   display: flex;
+   justify-content: space-between;
+ }
+ .footer-left{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+ }
+ .footer-right{
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .footer-r-l{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+
+ }
+ .footer-r-r{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+ }
+
+ .bottom-line{
+  
+ }
+ .bottom-line p{
+   color: rgba(255, 255, 255, 0.5);
+   font-size: 20px;
+   letter-spacing: 0.3px;
+   text-align: center;
+   padding-top: 36px;
+   padding-bottom: 36px;
+   border-top: 1px solid rgba(211, 211, 211, 0.122);
+ }
+ /* footer section end */
