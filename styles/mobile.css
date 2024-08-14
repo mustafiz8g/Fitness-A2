@@ -17,7 +17,8 @@
         width: 100%;
     }
     .btn-primary,.btn-2{
-      padding: 16px 20px;
+      padding: 15px 18px;
+      font-size: 16px;
     }
     .buttons{
         justify-content: space-evenly;
