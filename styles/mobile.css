@@ -81,6 +81,88 @@
          font-size: 2.4rem;
         font-weight: 800;
      }
+ 
+     .run-section{
+        border-radius: 15px;
+        
+     }
+     .run-section-content{
+      padding: 25px;
+      display: flex;
+        flex-direction: column;
+     }
+     .run-left h2{
+        font-size: 2rem;
+     }
+     .run-left p{
+        margin-top: 10px;
+        margin-bottom: 22px;
+     }
+     .run-left{
+        width: 100%;
+     }
+     .run-right{
+        width: 100%;
+      }
+     .run-right img{
+        width: 287px;
+        height: 170px;
+        /* object-fit:fill ; */
+        /* object-position: right; */
+        width: 100%;
+        border-radius: 15px;
+     }
+     .container2{
+        width: 85%;
+        margin-top: 50px;
+    }
+    .btn-33{
+        display: flex;
+        justify-content: center;
+    }
+    .btn-3{
+        width: 100%;
+    }
 
-    
+    .bmi-content{
+        flex-direction: column;
+        width: 90%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+     }
+     .chart{width: 100%;
+        /* border: 2px solid rebeccapurple; */
+        margin:0 auto;
+        margin-bottom: 25px;
+        justify-content: center;
+        }
+         .calculate{
+            width: 100%;
+            margin: auto;
+            /* border: 2px solid red; */
+         }
+
+.input-6{
+    margin-top: 24px;
+}
+.bmi-title-description{
+    max-width: 80%;
+    margin:0 auto;
+    text-align: left;
+ }
+ .chart caption{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+ }
+ .calculate h2{
+    font-size: 1.3rem;
+
+ }
+ .section-title{
+    font-size: 2rem;
+    font-weight: 800;
+ }
+ .section-description{
+    margin-bottom: 40px;
+ }
 }
