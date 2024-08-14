@@ -200,7 +200,49 @@ border-radius: 50%;
     position: relative;
 }
  /* banner style end  */
-          
+ /* xtra section start  */
+ .section-extra{
+   padding: 30px;
+   background: linear-gradient(0deg, rgba(17, 17, 17, 0.683),rgba(119, 119, 119, 0),rgba(17, 17, 17, 0.683) 100%);
+ }
+ .check-list {
+   display: grid;
+   grid-template-columns: repeat(3 , 1fr);
+   gap: 15px;
+   margin-top: 45px;
+ }
+ .check-list p{
+   list-style: none;
+   color:rgba(255, 255, 255, 0.552) ;
+   font-size: 1.5rem;
+   margin-top: 10px;
+ } 
+ .fa-check{
+   color:#E6533C;
+   font-weight:;
+ }
+ .search-btn{
+   text-align: center;
+   margin-top: 40px;
+ }
+ .search-btn input{
+   padding: 15px 24px;
+   width: 450px;
+   background-color:rgba(255, 255, 255, 0.1);
+   border: none;
+   border-radius: 8px 0 0 8px;
+ }
+ .fa-magnifying-glass{
+   color: white;
+   background-color: #E6533C;
+   padding: 15px;
+   margin-left: -5px;
+   position: relative;
+   top: 1.8px;
+   border-radius:  0 8px 8px 0;
+   
+ }
+ /* xtra section end */
  /* change section start  */
  .cards{
     display: grid;

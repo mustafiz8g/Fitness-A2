@@ -203,5 +203,17 @@
   .footer-r-l ,.footer-r-r{
     width: 90%;
   }
- 
+  .check-list {
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    gap: 15px;
+    margin-top: 45px;
+  }
+  .search-btn input{
+    width: 250px;
+
+  }
+  .section-extra{
+    padding: 0px;
+  }
 }
