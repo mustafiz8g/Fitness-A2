@@ -174,4 +174,34 @@
     margin:0 auto;
     justify-items: center;
  }
+ .footer-content{
+    flex-direction: column
+ }
+ .footer-right{
+    width: 90%;
+    flex-direction: column;
+    
+    /* margin: 0; */
+ }
+ .footer-left{
+    width: 90%;
+    /* margin: 0; */
+    margin-bottom: 35px;
+ }
+ .footer-left h1{
+    color: #E6533C ;
+    font-size: 45px;
+    font-weight: 800;
+    font-style: italic;
+  }
+  .footer-r-l h6,.footer-r-r h6{
+    font-size: 25px;
+  }
+  .footer-r-l li ,.footer-r-r li{
+    margin-bottom: 15px;
+  }
+  .footer-r-l ,.footer-r-r{
+    width: 90%;
+  }
+ 
 }
